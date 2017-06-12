@@ -22,7 +22,7 @@
      ("melpa" . "https://melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (marmalade-demo django-manage django-mode django-snippets django-theme ## dash nyan-mode solarized-theme idea-darkula-theme js2-mode)))
+    (async auto-complete concurrent ctable deferred epc epl f helm helm-core helm-make hydra jedi-core pkg-info popup projectile python-environment pythonic s yasnippet jedi pyenv-mode pony-mode marmalade-demo django-manage django-mode django-snippets django-theme ## dash nyan-mode solarized-theme idea-darkula-theme js2-mode)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
