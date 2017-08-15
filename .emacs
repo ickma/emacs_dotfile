@@ -4,7 +4,11 @@
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
 (package-initialize)
-
+;; mobileorg settings
+(setq org-directory "~/org")
+(setq org-mobile-inbox-for-pull "~/org/inbox.org")
+(setq org-mobile-directory "~/Dropbox/Apps/MobileOrg")
+(setq org-mobile-files '("~/org"))
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -14,10 +18,12 @@
  '(custom-enabled-themes (quote (solarized-dark)))
  '(custom-safe-themes
    (quote
-    ("a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
+    ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
  '(global-linum-mode t)
  '(line-number-display-limit-width 200)
+ '(markdown-command "/usr/local/bin/markdown")
  '(menu-bar-mode nil)
+ '(tool-bar-mode nil)
  '(package-archives
    (quote
     (("gnu" . "http://elpa.gnu.org/packages/")
@@ -25,7 +31,6 @@
  '(package-selected-packages
    (quote
     (elpy go go-add-tags go-autocomplete go-complete go-direx go-dlv go-eldoc go-errcheck go-gopath go-guru go-impl go-mode go-playground go-playground-cli go-projectile go-rename go-scratch go-snippets react-snippets py-autopep8 py-gnitset py-import-check py-isort py-smart-operator py-test py-yapf pycarddavel pycoverage pydoc pydoc-info pyenv-mode-auto pyfmt pygen pyimport pyimpsort pylint pytest python python-cell python-django python-docstring python-info python-mode python-switch-quotes python-test python-x pyvenv flycheck flycheck-clojure flycheck-css-colorguard flycheck-cython flycheck-pony flycheck-swift async auto-complete concurrent ctable deferred epc epl f helm helm-core helm-make hydra jedi-core pkg-info popup projectile python-environment pythonic s yasnippet jedi pyenv-mode pony-mode marmalade-demo django-manage django-mode django-snippets django-theme ## dash nyan-mode solarized-theme idea-darkula-theme js2-mode)))
- '(tool-bar-mode nil)
  '(url-proxy-services
    (quote
     (("http" . "localserver:8118")
