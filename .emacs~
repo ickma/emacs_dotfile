@@ -6,9 +6,9 @@
 (package-initialize)
 ;; mobileorg settings
 (setq org-directory "~/org")
-(setq org-mobile-inbox-for-pull "~/org/from-mobile.org")
+(setq org-mobile-inbox-for-pull "~/org/inbox.org")
 (setq org-mobile-directory "~/Dropbox/Apps/MobileOrg")
-(setq org-mobile-files '("~/org/to-mobile"))
+(setq org-mobile-files '("~/org"))
 (setq linum-format "%d ")
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -24,6 +24,9 @@
  '(line-number-display-limit-width 200)
  '(markdown-command "/usr/local/bin/markdown")
  '(menu-bar-mode nil)
+ '(org-agenda-files
+   (quote
+    ("/Users/nick/org/bigtable.org" "/Users/nick/org/command-line-tools.org" "/Users/nick/org/emacs-skills.org" "/Users/nick/org/flagged.org" "/Users/nick/org/hhkb.org" "/Users/nick/org/mytodo.org" "/Users/nick/org/new-words.org")))
  '(package-archives
    (quote
     (("gnu" . "http://elpa.gnu.org/packages/")
