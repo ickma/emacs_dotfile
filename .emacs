@@ -27,10 +27,10 @@
  '(package-archives
    (quote
     (("gnu" . "http://elpa.gnu.org/packages/")
-     ("melpa" . "https://melpa.org/packages/"))))
+     ("melpa" . "http://melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (highlight-parentheses neotree elpy go go-add-tags go-autocomplete go-complete go-direx go-dlv go-eldoc go-errcheck go-gopath go-guru go-impl go-mode go-playground go-playground-cli go-projectile go-rename go-scratch go-snippets react-snippets py-autopep8 py-gnitset py-import-check py-isort py-smart-operator py-test py-yapf pycarddavel pycoverage pydoc pydoc-info pyenv-mode-auto pyfmt pygen pyimport pyimpsort pylint pytest python python-cell python-django python-docstring python-info python-mode python-switch-quotes python-test python-x pyvenv flycheck flycheck-clojure flycheck-css-colorguard flycheck-cython flycheck-pony flycheck-swift async auto-complete concurrent ctable deferred epc epl f helm helm-core helm-make hydra jedi-core pkg-info popup projectile python-environment pythonic s yasnippet jedi pyenv-mode pony-mode marmalade-demo django-manage django-mode django-snippets django-theme ## dash nyan-mode solarized-theme idea-darkula-theme js2-mode)))
+    (material-theme better-defaults highlight-parentheses neotree elpy go go-add-tags go-autocomplete go-complete go-direx go-dlv go-eldoc go-errcheck go-gopath go-guru go-impl go-mode go-playground go-playground-cli go-projectile go-rename go-scratch go-snippets react-snippets py-autopep8 py-gnitset py-import-check py-isort py-smart-operator py-test py-yapf pycarddavel pycoverage pydoc pydoc-info pyenv-mode-auto pyfmt pygen pyimport pyimpsort pylint pytest python python-cell python-django python-docstring python-info python-mode python-switch-quotes python-test python-x pyvenv flycheck flycheck-clojure flycheck-css-colorguard flycheck-cython flycheck-pony flycheck-swift async auto-complete concurrent ctable deferred epc epl f helm helm-core helm-make hydra jedi-core pkg-info popup projectile python-environment pythonic s yasnippet jedi pyenv-mode pony-mode marmalade-demo django-manage django-mode django-snippets django-theme ## dash nyan-mode solarized-theme idea-darkula-theme js2-mode)))
  '(tool-bar-mode nil)
  '(url-proxy-services
    (quote
